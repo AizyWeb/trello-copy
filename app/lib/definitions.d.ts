@@ -18,3 +18,10 @@ export type User = {
     password: string
     boards: Board[]
 }
+
+export type Team = {
+    id: string
+    name: string
+    users: User[]
+    boards: Board[]
+}
