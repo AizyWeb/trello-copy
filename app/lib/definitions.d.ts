@@ -16,12 +16,14 @@ export type User = {
     id: string
     username: string
     password: string
+    img_url: string
     boards: Board[]
 }
 
 export type Team = {
     id: string
     name: string
+    img_url: string
     users: User[]
     boards: Board[]
 }
