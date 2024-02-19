@@ -18,3 +18,8 @@ body{
   border: none;
   color: white;
 }
+
+main{
+  margin-top: 10vh;
+  background-color: var(--high-blue);
+}

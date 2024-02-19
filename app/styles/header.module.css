@@ -28,21 +28,39 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 1vw;
 }
 
 .headernav > li {
-    padding: 0.7rem;    
+    padding: 0.4rem;
 }
 
 .headernav > li > a {
     text-decoration: none;
     cursor: pointer;
     color: white;
+    padding: 0.7rem;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+#createbtn{
+    background-color: var(--high-blue);
+    transition: 0.3s;
+}
+
+.headernav > li > a:hover {
+    background-color: var(--low-green);
 }
 
 #profilenav > li > img{
     height: 5vh;
     width: 5vh;
     cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+#profilenav > li > img:hover {
+    background-color: var(--low-green);
 }

@@ -3,6 +3,7 @@ import { Roboto } from 'next/font/google'
 import '../public/trello-icon.png'
 import './globals.css'
 import Header from './ui/Header'
+import Footer from './ui/Footer'
 
 const roboto = Roboto({ weight: ['400', '700'], subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout ({
       <body className={roboto.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

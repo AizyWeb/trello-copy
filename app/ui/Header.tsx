@@ -18,7 +18,7 @@ export default function Header () {
         <ul className={styles.headernav}>
           <li><a href='#'>Workspaces</a></li>
           <li><a href='#'>Starred</a></li>
-          <li><a href='#'>Create</a></li>
+          <li><a href='#' id={styles.createbtn}>Create</a></li>
         </ul>
       </div>
       <div>
