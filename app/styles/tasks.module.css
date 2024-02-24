@@ -1,0 +1,13 @@
+.tasks{
+    border: 1px solid var(--trello-gray);
+    width: 100%;
+    padding: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ghosttask{
+    opacity: 0.2;
+}

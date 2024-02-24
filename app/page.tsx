@@ -1,9 +1,9 @@
 import styles from './page.module.css'
-
+import Board from './ui/Board'
 export default function Home () {
   return (
     <main>
-      <h1>Trello</h1>
+      <Board />
     </main>
   )
 }

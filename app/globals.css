@@ -17,9 +17,28 @@ body{
   padding: 0;
   border: none;
   color: white;
+  /* overflow: hidden; */
 }
 
 main{
+  padding: 0;
+  margin: 0;
+  width: 100%;
   margin-top: 10vh;
   background-color: var(--high-blue);
+}
+
+button{
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: var(--low-blue);
+  color: white;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

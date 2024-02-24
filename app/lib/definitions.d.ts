@@ -1,3 +1,5 @@
+import { SetStateAction } from 'react'
+
 export type Card = {
     title: string
     description: string
@@ -26,4 +28,19 @@ export type Team = {
     img_url: string
     users: User[]
     boards: Board[]
+}
+
+export type TaskType = {
+    name: string
+    index: number
+    id: string
+    cardId: string
+}
+
+export type CardProps = {
+    id: string
+    index: number
+    name: string
+    tasks: TaskType[]
+    setTasks: SetStateAction<any>
 }

@@ -5,14 +5,16 @@ export default function Header () {
   return (
     <header className={styles.header}>
       <div className={styles.herodiv}>
-        <Image
-          className={styles.heroicon}
-          src='/trello-icon.png'
-          alt='Trello Icon'
-          height={150}
-          width={150}
-        />
-        <h1>TrelloCopy</h1>
+        <a href='#'>
+          <Image
+            className={styles.heroicon}
+            src='/trello-icon.png'
+            alt='Trello Icon'
+            height={150}
+            width={150}
+          />
+          <h1>TrelloCopy</h1>
+        </a>
       </div>
       <div>
         <ul className={styles.headernav}>

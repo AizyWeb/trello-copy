@@ -1,0 +1,24 @@
+.newcardform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.3rem;
+}
+.newcardform > input {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.newcardform > input:focus{
+    border: 2px solid var(--low-blue);
+    outline: none;
+}
